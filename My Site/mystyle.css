@@ -1,0 +1,65 @@
+/*global*/
+
+body{
+    margin-top: 50px;
+    font-family: 'Roboto Mono', monospace;  
+}
+/*utilities*/
+/*header*/
+header{ 
+    text-align: center;
+    background-image:url(https://images.squarespace-cdn.com/content/v1/5570a318e4b02d3071ca7d2b/1546887573347-I9GHTK88KDVZYPLMCCET/contemporary-websites-header-background.jpg?format=1500w);
+    background-position: center center;
+    background-size: cover;
+    height: 30vh;
+    text-align: center;
+}
+
+/*nav*/
+nav .menu a{
+    color: bisque;
+    font-weight: 700;
+    margin-right: 30px;
+}
+main{
+    text-align: center;
+    height: 58vh;
+}
+
+nav.social-networks a{
+    color: rgb(63, 63, 73);
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+/*services*/
+div.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+div.services{
+    background-color: rgb(204, 199, 199);
+    width: 500px;   
+    margin: 20px auto; /*tb lr*/
+    padding: 20px;
+    border-radius: 8px;
+}  
+/*contact*/
+div.contact-container{
+   text-align: left;
+   margin-top: 50px; 
+}    
+div.services ol li{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+div.services ol li:hover{
+    text-decoration: underline dotted;
+}
+/*footer*/
+footer{
+    text-align:center;
+    padding:50px;
+}
